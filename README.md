@@ -22,6 +22,46 @@ CAP_Assgn_1/
 pip install torch torchvision numpy matplotlib
 ```
 
+## Dataset
+
+This project uses the [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) dataset from Kaggle.
+
+### Download instructions
+
+**Option 1 – Kaggle website (simplest)**
+
+1. Go to https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+2. Click **Download** (you'll need a free Kaggle account)
+3. Unzip the file — it will contain `train/`, `val/`, and `test/` folders
+4. Move those three folders into the root of this project
+
+**Option 2 – Kaggle API (command line)**
+
+```bash
+pip install kaggle
+
+# Place your kaggle.json API key in ~/.kaggle/kaggle.json, then:
+kaggle datasets download -d paultimothymooney/chest-xray-pneumonia
+unzip chest-xray-pneumonia.zip
+```
+
+After downloading, your directory should look like this:
+
+```
+CAP_Assgn_1/
+├── train/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
+├── val/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
+└── test/
+    ├── NORMAL/
+    └── PNEUMONIA/
+```
+
+
+
 ## How to Run
 
 ### Task 1.1 – Train ResNet-18 from scratch (random initialisation)
