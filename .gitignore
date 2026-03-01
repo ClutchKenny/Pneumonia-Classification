@@ -1,0 +1,19 @@
+# Raw image dataset – too large for GitHub (~1.2 GB), download from Kaggle
+train/
+val/
+test/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/

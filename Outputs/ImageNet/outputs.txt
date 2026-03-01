@@ -1,0 +1,9 @@
+Best test accuracy: 85.74%
+
+--- Per-Class Accuracy (Test Set) ---
+  NORMAL      : 135/234 (57.7%)
+  PNEUMONIA   : 389/390 (99.7%)
+  Overall     : 524/624 (84.0%)
+
+100 misclassified images saved to 'misclassified_mode2/'
+Training and evaluation finished

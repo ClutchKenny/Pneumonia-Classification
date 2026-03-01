@@ -1,0 +1,6 @@
+Best test accuracy: 91.03%
+
+--- Per-Class Accuracy (Test Set) ---
+  NORMAL      : 155/234 (66.2%)
+  PNEUMONIA   : 387/390 (99.2%)
+  Overall     : 542/624 (86.9%)
